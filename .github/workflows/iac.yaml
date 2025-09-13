@@ -9,11 +9,6 @@ on:
       - main 
     paths:  
       - terraform/**
-  pull_request:
-    branches:
-      - main
-    paths:
-      - terraform/**
   workflow_dispatch: # Enables manual trigger for destroy job
 # Environment Variables
 env:
